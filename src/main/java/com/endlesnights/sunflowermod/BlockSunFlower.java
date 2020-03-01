@@ -30,7 +30,7 @@ public class BlockSunFlower extends TallFlowerBlock
 	public BlockSunFlower(Properties properties)
 	{
 		super(properties);
-		this.setDefaultState(this.stateContainer.getBaseState().with(HALF, DoubleBlockHalf.LOWER).with(HORIZONTAL_FACING, Direction.SOUTH));
+		this.setDefaultState(this.stateContainer.getBaseState().with(HALF, DoubleBlockHalf.LOWER).with(HORIZONTAL_FACING, Direction.EAST));
 	}
 	protected void fillStateContainer(StateContainer.Builder<Block, BlockState> builder)
 	{
